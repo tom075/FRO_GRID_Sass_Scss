@@ -1,0 +1,5 @@
+section {
+  display: grid;
+  @include  grid-tc(1fr);
+  padding-bottom: .2em;
+}

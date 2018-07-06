@@ -1,0 +1,12 @@
+  body {
+    @include grid-tc(1fr 1fr 1fr);
+    grid-template-areas:
+            "kop kop kop"
+            "t1 t2 afb"
+            "t3 t4 afb"
+            "t3 t5 afb"
+            "aside t6 t6"
+            "aside t7 t8"
+            "aside t9 t10"
+            "aside voet voet";
+  }

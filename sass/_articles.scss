@@ -1,0 +1,50 @@
+.getal {
+  background-color: $hoofdkleur;
+  color: $tekstkleur;
+  font-size: $padding*3;
+  width: 1.2em;
+  text-align: right;
+  padding: .2em;
+}
+
+article {
+  padding: 1em;
+}
+
+section img {
+  max-width: 100%;
+}
+
+aside {
+  a {
+    text-decoration: $none;
+    display: block;
+    padding: $padding*2;
+  }
+  h3 {
+    background-color: $hoofdkleur;
+    padding: $padding*2;
+    color: $tekstkleur;
+  }
+  ul {
+    list-style-type: $none;
+    margin: $padding*0;
+    padding: $padding*0;
+  }
+}
+
+footer {
+  background-color: #333;
+  color: #eee;
+  padding: 2em;
+}
+
+aside a:hover {
+  background-color: $hoofdkleur;
+  color: $tekstkleur;
+}
+
+.getal{
+  padding: $padding/3;
+  margin: $padding*0;
+}

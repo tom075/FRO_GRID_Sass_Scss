@@ -1,0 +1,64 @@
+//nav {
+//  ul {
+//
+//    display: grid;
+//    @include grid-tc(1fr 1fr 1fr 1fr);
+//
+//    a {
+//      text-align: center;
+//    }
+//  }
+//}
+
+  .afb {
+    display: block;
+    background-image: url("../img/vrijdag13.jpg");
+    background-size: cover;
+    background-position: center center;
+  }
+  body {
+    display: grid;
+    @include grid-tc(1fr 1fr);
+    grid-template-areas:
+            "kop kop"
+            "t1 t2"
+            "t3 t4"
+            "t3 t5"
+            "afb t6"
+            "afb t7"
+            "t8 t9"
+            "t10 aside"
+            "t10 aside"
+            "voet voet";
+  }
+  header {
+    grid-area: kop;
+  }
+  .positief {grid-area: t1;}
+  .complimentje {grid-area: t2;}
+  .karma {grid-area: t3;}
+  .talisman {grid-area: t4;}
+  .afb {grid-area: afb;}
+  .leuk {grid-area: t5;}
+  .opruimen {grid-area: t6;}
+  .vermijden {grid-area: t7;}
+  .stress {grid-area: t8;}
+  .lorem {grid-area: t9;}
+  .altijd {grid-area: t10;}
+
+  aside {grid-area: aside;}
+  footer {grid-area: voet;}
+  h1 {font-size: $padding*2.6;}
+
+  .positief_article {
+    display: grid;
+    @include grid-tc(1fr 1fr);
+    grid-gap: .2em;
+    h3 {
+      grid-column: span 2;
+    }
+  }
+  section, footer {
+    display: grid;
+    grid-template-columns: 1fr auto;
+  }

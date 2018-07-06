@@ -1,0 +1,52 @@
+// importeer vars
+@import "vars";
+
+//mixins
+@import "mixins";
+
+//reset stijlen
+@import "reset";
+
+//navigatie
+@import "displays";
+
+// articles
+@import "articles";
+
+body {
+  font-family: sans-serif;
+}
+
+
+aside {
+  background-color: $lichter;
+}
+
+footer {
+  background-color: $hoofdkleur;
+}
+header, aside{
+  background-color: $achtergrond;
+}
+
+p {
+  font-family: $klein_font;
+  color: $tekstkleur;
+}  h1, h2, h3 {
+     font-family: $groot_font;
+     color: $tekstkleur;
+
+   }
+
+html, body
+{
+  background-color: $achtergrond;
+}
+header{
+  padding: 2em;
+}
+
+h3 .getal
+{
+  background-color: $hoofdkleur;
+}

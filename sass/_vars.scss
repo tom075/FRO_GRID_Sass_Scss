@@ -1,0 +1,17 @@
+ // kleuren
+
+$achtergrond: rgba(0,0,0,0.66);
+$hoofdkleur: red;
+ $tekstkleur: #fff;
+$lichter: lighten($hoofdkleur, 30%);
+$donkerder: darken($hoofdkleur, 10%);
+ $none: none;
+
+
+ // padding
+ $padding: 1em;
+
+ //fonts
+ @import url('https://fonts.googleapis.com/css?family=Krona+One|Roboto');
+ $groot_font: 'Krona One', sans-serif;
+ $klein_font: 'Roboto', sans-serif;
